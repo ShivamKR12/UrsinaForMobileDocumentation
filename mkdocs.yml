@@ -1,0 +1,53 @@
+site_name: UrsinaForMobile Documentation
+site_description: The New Documentation For The UrsinaForMobile Project.
+site_author: ShivamKR12
+site_url: https://shivamkr12.github.io/ursinaformobiledocumentation/
+
+repo_name: ShivamKR12/UrsinaForMobileDocumentation
+repo_url: https://github.com/ShivamKR12/UrsinaForMobileDocumentation
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+  palette:
+    - scheme: default
+      primary: deep purple
+      accent: deep purple
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: deep purple
+      accent: deep purple
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+
+nav:
+  - Home: index.md
+  - Getting Started:
+      - Prerequisites: prerequisites.md
+      - Installation: installation.md
+  - Understanding UfM:
+      - Project Structure: structure.md
+      - Your Game: your-game.md
+  - Building & Deployment:
+      - Building for Android: building.md
+      - Advanced Build Options: build-options.md
+      - Wheel Patching: wheelpatcher.md
+  - Help:
+      - Troubleshooting: troubleshooting.md
