@@ -36,5 +36,5 @@ Contributions to the documentation are welcome!
 * When you push to the `main` branch, a GitHub Action will automatically build and deploy the updated site to GitHub Pages.
 
 ## Links
-* UrsinaForMobile Main Repository
-* Ursina Engine Discord
+* [UrsinaForMobile Main Repository](https://github.com/PaologGithub/UrsinaForMobile)
+* [Ursina Engine Discord](https://discord.com/invite/ydXfhyb)
