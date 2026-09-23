@@ -2,9 +2,14 @@ name: Deploy Documentation
 
 on:
   push:
-    branches:
-      - main
-      - master
+    paths:
+      - '**.py'
+      - '**.spec'
+      - '**.ini'
+      - 'requirements.txt'
+      - 'setup.py'
+      - '.github/workflows/*.yml'
+  workflow_dispatch:
 
 permissions:
   contents: write

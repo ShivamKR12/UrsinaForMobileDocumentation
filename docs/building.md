@@ -37,6 +37,9 @@ If the build is successful, you will find an installable `.apk` or publishable `
 
 While the `.aab` is required for the Play Store, you cannot install it directly onto your device. You must first convert it into a Universal APK using **Bundletool**.
 
+!!! tip "Advanced Bundletool Usage"
+    This section covers generating a simple Universal APK. For advanced commands (like generating device-specific APKs or measuring app sizes), check out the full **Bundletool Guide**.
+
 ### 1. Generating the Universal APK
 Run the following command to generate an `.apks` archive containing a universal APK:
 
@@ -85,7 +88,10 @@ You can also test your game entirely on your PC using an Android emulator!
 
 ## Signing the Bundle (Production)
 
-Before you can upload the app to the Play Store, it needs to be signed using an upload certificate. You can generate a certificate yourself using OpenSSL:
+Before you can upload the app to the Play Store, it needs to be signed using an upload certificate. You can generate this using either **OpenSSL** or Java's **keytool**.
+
+### Option A: Using OpenSSL (Recommended for setup.py)
+You can generate a `.pem` certificate using OpenSSL:
 
 **Windows**
 ```cmd

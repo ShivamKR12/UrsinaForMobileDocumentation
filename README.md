@@ -1,5 +1,17 @@
 # UrsinaForMobile Documentation
 
+<div align="center">
+
+![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)
+![Ursina](https://img.shields.io/badge/Engine-Ursina-black?logo=python&logoColor=white)
+![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux%20%7C%20macOS-lightgrey)
+![GitHub Actions](https://img.shields.io/badge/CI-GitHub%20Actions-2088FF?logo=github-actions&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-green.svg)
+
+</div>
+
+
+
 This repository contains the official documentation for **UrsinaForMobile** (UfM), a project that allows you to export your [Ursina Engine](https://github.com/pokepetter/ursina) games to Android.
 
 🌍 **[Read the Documentation Here](https://shivamkr12.github.io/ursinaformobiledocumentation/)**

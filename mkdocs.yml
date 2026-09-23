@@ -48,6 +48,7 @@ nav:
   - Building & Deployment:
       - Building for Android: building.md
       - Advanced Build Options: build-options.md
+      - Bundletool Guide: bundletool.md
       - Wheel Patching: wheelpatcher.md
   - Help:
       - Troubleshooting: troubleshooting.md
